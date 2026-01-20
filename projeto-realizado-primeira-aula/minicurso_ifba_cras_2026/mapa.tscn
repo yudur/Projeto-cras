@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8mh77xbciwbb"]
+
+[ext_resource type="Texture2D" uid="uid://pxgqg6ki7dte" path="res://icon.svg" id="1_2jh14"]
+
+[node name="mapa" type="Node2D"]
+
+[node name="jogador" type="CharacterBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="jogador"]
+position = Vector2(400, 79)
+texture = ExtResource("1_2jh14")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(580.99994, 586)
+scale = Vector2(9.015624, 1)
+texture = ExtResource("1_2jh14")
